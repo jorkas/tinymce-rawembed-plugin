@@ -2,6 +2,8 @@ tinyMCEPopup.requireLangPack();
 var RawEmbedDialog = {
     init : function(){
         this.editor = editor = tinyMCEPopup.editor;
+        this.data = editor.selection.getContent();
+        document.getElementById("raw-embed").value = this.data;
     },
     insert : function(){
         var editor = tinyMCEPopup.editor;
