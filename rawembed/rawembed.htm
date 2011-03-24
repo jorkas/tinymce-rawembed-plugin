@@ -6,8 +6,8 @@
 	<script type="text/javascript" src="js/rawembed.js"></script>
     <link type="text/css" rel="stylesheet" media="screen" href="css/dialog_rawembed.css">
 </head>
-<body onsubmit="RawEmbedDialog.insert(); return false;" action="#" style="display:none; overflow:hidden;">
-    <form>
+<body style="display: none" role="application">
+    <form onsubmit="RawEmbedDialog.insert();return false;" action="#">
         <fieldset>
             <legend>{#rawembed_dlg.legend}</legend>
             <label for="raw-embed">{#rawembed_dlg.label}</label>
