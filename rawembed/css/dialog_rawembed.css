@@ -1,0 +1,11 @@
+textarea {
+	vertical-align: middle;
+	width:450px;
+	height:200px;
+}
+label {
+	vertical-align: middle;
+}
+fieldset {
+	margin-bottom: 10px;
+}
