@@ -246,7 +246,7 @@
                 if (this.editor.getParam('media_strict', true)) {
                     object.attr({
                         data: data.params.src,
-                        type: typeItem.mimes[0]
+                        type: typeItem.mimes
                     });
                 } else {
                     object.attr({
@@ -260,7 +260,7 @@
                         width: node.attr('width'),
                         height: node.attr('height'),
                         style : style,
-                        type: typeItem.mimes[0]
+                        type: typeItem.mimes
                     });
 
                     for (name in data.params){
