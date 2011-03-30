@@ -14,6 +14,7 @@ Dependencies
 ------------
 
 The plugin is built on TinyMCE 3.4 (releaseDate: 2011-03-10)
+The editor have to support i.e valid_elements : 'object[classid|width|height|codebase|*],param[name|value|_value],embed[type|width|height|wmode|src|*],img[id|class|src|data-mce-src|data-mce-json|width|height]'
 
 Usage / Examples
 -----
@@ -26,7 +27,7 @@ Usage / Examples
             entity_encoding : 'raw',
             plugins : "inlinepopups,paste,rawembed",
             theme : 'advanced',
-            theme_advanced_buttons1 : "bold,italic,underline,strikethrough,bullist,undo,redo,|,link,unlink,|,rawembed,|,cleanup,code",
+            theme_advanced_buttons1 : "bold,italic,underline,strikethrough,bullist,rawembed,code",
             theme_advanced_resizing : true,
             theme_advanced_toolbar_align : 'left',
             theme_advanced_toolbar_location : 'top'
