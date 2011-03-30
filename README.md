@@ -21,17 +21,17 @@ Usage / Examples
 * Define rawembed plugin in the plugins section
 * Define rawembed button in the button section
   
-    tinyMCE.init({
-        editor_selector : 'tiny_editor',
-        entity_encoding : 'raw',
-        plugins : "inlinepopups,paste,rawembed",
-        theme : 'advanced',
-        theme_advanced_buttons1 : "bold,italic,underline,strikethrough,bullist,undo,redo,|,link,unlink,|,rawembed,|,cleanup,code",
-        theme_advanced_resizing : true,
-        theme_advanced_toolbar_align : 'left',
-        theme_advanced_toolbar_location : 'top',
-        valid_elements : 'strong/b,em/i,del/strike,u/ins,span,-p,sub,sup,br,h2,h3,h4,h5,h6,-a[href|title|target],ol,ul,li,object[classid|width|height|codebase|*],param[name|value|_value],embed[type|width|height|wmode|src|*],img[id|class|src|data-mce-src|data-mce-json|width|height]'
-    });  
+        tinyMCE.init({
+            editor_selector : 'tiny_editor',
+            entity_encoding : 'raw',
+            plugins : "inlinepopups,paste,rawembed",
+            theme : 'advanced',
+            theme_advanced_buttons1 : "bold,italic,underline,strikethrough,bullist,undo,redo,|,link,unlink,|,rawembed,|,cleanup,code",
+            theme_advanced_resizing : true,
+            theme_advanced_toolbar_align : 'left',
+            theme_advanced_toolbar_location : 'top',
+            valid_elements : 'strong/b,em/i,del/strike,u/ins,span,-p,sub,sup,br,h2,h3,h4,h5,h6,-a[href|title|target],ol,ul,li,object[classid|width|height|codebase|*],param[name|value|_value],embed[type|width|height|wmode|src|*],img[id|class|src|data-mce-src|data-mce-json|width|height]'
+        });  
 
 Links
 -----
