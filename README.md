@@ -6,15 +6,15 @@ A TinyMCE plugin that have support only flash embed, based at the original TinyM
 Features
 --------
 
-* Menubutton that have the media icon
+* Menu button that have the media icon
 * Dialog with textarea to paste flash embed code
-* Autoformatting of embed code past in HTML view
+* Automatically formatting of flash embed when code pasted in HTML view
 
 Dependencies
 ------------
 
-The plugin is built on TinyMCE 3.4 (releaseDate: 2011-03-10)
-The editor have to support i.e valid_elements : 'object[classid|width|height|codebase|*],param[name|value|_value],embed[type|width|height|wmode|src|*],img[id|class|src|data-mce-src|data-mce-json|width|height]'
+* The plugin is built on TinyMCE 3.4 (releaseDate: 2011-03-10)
+* The editor have to support i.e valid_elements : 'object[classid|width|height|codebase|*],param[name|value|_value],embed[type|width|height|wmode|src|*],img[id|class|src|data-mce-src|data-mce-json|width|height]'
 
 Usage / Examples
 -----
@@ -39,6 +39,8 @@ Usage / Examples
                 theme_advanced_statusbar_location : "bottom",
                 theme_advanced_resizing : true,
             });  
+
+Example can be found here: (http://joakim-westerlund.se/lab/tinymce/tinymce-embed-editor.html)
 
 Links
 -----
