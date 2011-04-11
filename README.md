@@ -22,22 +22,30 @@ Usage / Examples
 * Define rawembed plugin in the plugins section
 * Define rawembed button in the button section
   
-        tinyMCE.init({
-            editor_selector : 'tiny_editor',
-            entity_encoding : 'raw',
-            plugins : "inlinepopups,paste,rawembed",
-            theme : 'advanced',
-            theme_advanced_buttons1 : "bold,italic,underline,strikethrough,bullist,rawembed,code",
-            theme_advanced_resizing : true,
-            theme_advanced_toolbar_align : 'left',
-            theme_advanced_toolbar_location : 'top'
-        });  
+            tinyMCE.init({
+                // General options
+                mode : 'specific_textareas',
+                editor_selector : 'editor',
+                theme : "advanced",
+                plugins : "inlinepopups,paste,rawembed",
+
+                // Theme options
+                theme_advanced_buttons1 : "bold,italic,underline,strikethrough,bullist,|,rawembed,code",
+                theme_advanced_buttons2 : "",
+                theme_advanced_buttons3 : "",
+                theme_advanced_buttons4 : "",
+                theme_advanced_toolbar_location : "top",
+                theme_advanced_toolbar_align : "left",
+                theme_advanced_statusbar_location : "bottom",
+                theme_advanced_resizing : true,
+            });  
 
 Links
 -----
 
 * Author:  [Joakim Westerlund](http://github.com/jorkas) - [Homepage](http://joakim-westerlund.se)
 * Company: [Mynewsdesk](http://www.mynewsdesk.com)
+* Blog: [Blog](http://devcorner.mynewsdesk.com)
 
 Please use the [GitHub issue tracker](https://github.com/jorkas/tinymce-rawembed-plugin/issues) for bug
 reports and feature requests.
