@@ -40,7 +40,7 @@ Usage / Examples
                 theme_advanced_resizing : true,
             });  
 
-Example can be found here: (http://joakim-westerlund.se/lab/tinymce/tinymce-embed-editor.html)
+Example can be found [http://joakim-westerlund.se/lab/tinymce/tinymce-embed-editor.html](http://joakim-westerlund.se/lab/tinymce/tinymce-embed-editor.html)
 
 Links
 -----
